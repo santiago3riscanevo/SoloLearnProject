@@ -1,0 +1,171 @@
+body{
+    font-family: 'Indie Flower', cursive;
+    background-color: rgb(196, 236, 240);
+}
+
+.head{
+    position: relative;
+    height: 4em;
+    width: 100%;
+}
+
+.title{
+    position: absolute;
+    right: 30%;
+    left: 30%;
+    margin-top: 0px;
+    border-style: dashed;
+    color: rgb(54.8%, 58.5%, 95.6%);
+    text-align: center;
+}
+
+.parrafo{
+    position: relative;
+    width: 100%;
+}
+
+.content{
+    margin: 1.2em;
+    font-size: 1.3em;
+}
+
+
+
+.text{
+    text-align: right;
+    margin-top: 5px;
+    margin-right: 1.2em;
+}
+
+
+/*CARPETA HORARIO*/
+.body{
+    position: relative;
+    left: 10%;
+    right: 10%;
+    height:300px;
+    width: 80%;
+
+}
+
+.topic{
+    background-color: rgb(95.6%, 66.5%, 54.8%);
+    color:white;
+    text-shadow: 1px 1px 1px black;
+    padding:0.3em;
+}
+
+
+
+#schedule{
+    position: absolute;
+    top:15%;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+
+}
+
+#schedule tr td {
+    border: solid 2px #cecece ;
+}
+
+
+/*formulario*/
+.form{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 3%;
+  
+}
+
+.bodyForm{
+    height: 350px;
+}
+
+.textbox, .textarea{
+    background-color: gainsboro;
+    border-style: 1px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    height: 2em;
+    font-size: 1em;
+}
+
+.textarea{
+    height: 100px;
+}
+
+.submit{
+    width: 100%;
+    padding:10px;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: honeydew;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black;
+    cursor: pointer;
+    font-size: 0.7em;
+
+}
+
+.submit:hover{
+    background-color: aquamarine ;
+}
+
+/*my skill*/
+
+
+.content{
+    margin-top: 1em;
+    padding: 1em;
+}
+
+.language{
+    font-size: 1.1em;
+}
+
+.progress{
+    width: 40%;
+    height: 20px;
+    color:#3fb6b2 ;
+    background: #efefef;
+    margin-top: 10px;
+    margin-bottom: 1.5em;
+    margin-left: 2.8em;
+
+}
+
+progress::-webkit-progress-bar {
+    background: #efefef;
+}
+
+progress::-webkit-progress-value {
+    background: gold;
+    border-radius: 5px;
+}
+
+progress::-moz-progress-bar {
+    color: #3fb6b2;
+    background: #efefef;
+}
+
+/*follow me*/
+
+.icons {
+    width: 100%;
+    height: 5em;
+    text-align: center;
+    padding: 10px;
+
+}
+
+a{
+    font-size: 2.5em;
+    margin: 0.5em;
+    color: black;    
+}

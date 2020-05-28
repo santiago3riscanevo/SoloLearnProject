@@ -1,0 +1,50 @@
+
+.header{
+    position: relative;
+    height: 3em;
+    width: auto;
+    margin: 30px;
+    padding: 2em;
+}
+
+.body{
+    position: relative;
+    left: 10%;
+    right: 10%;
+    height:200px;
+    width: 80%;
+}
+
+.topic{
+    background-color: rgb(95.6%, 66.5%, 54.8%);
+    color:white;
+    text-shadow: 1px 1px 1px black;
+    padding:0.3em;
+}
+
+#title{
+    text-align: center;
+    border: dashed;
+    border-width: 4px;
+    position: absolute;
+    right: 30%;
+    left: 30%;
+    font-size: 2em;
+    color:aquamarine ;
+    padding: 10px;
+}
+
+#schedule{
+    position: absolute;
+    top:15%;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+
+#schedule tr td {
+    border: solid 2px #cecece ;
+    
+}
+
+

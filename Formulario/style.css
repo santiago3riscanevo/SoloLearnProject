@@ -1,0 +1,60 @@
+
+.head{
+    position: relative;
+    padding:0px;
+    height: 2em;
+    width: auto;
+    margin-bottom: 2em;
+}
+
+.title{
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 0px;
+    border:dashed 3px;
+    text-align: center;
+    color: aqua;
+    margin: 0px;
+}
+
+.form{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 3%;
+  
+}
+
+.textbox, .textarea{
+    background-color: gainsboro;
+    border-style: 1px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    height: 2em;
+    font-size: 1em;
+}
+
+.textarea{
+    height: 100px;
+}
+
+.submit{
+    width: 100%;
+    padding:10px;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: honeydew;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black;
+    cursor: pointer;
+    font-size: 0.7em;
+
+}
+
+.submit:hover{
+    background-color: aquamarine ;
+}
